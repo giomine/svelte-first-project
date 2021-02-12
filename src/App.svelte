@@ -12,8 +12,8 @@
 			<img class="tomb-raider-logo" src="/images/tomb-raider-logo.png" alt="">
 		</div>
 		<Countdown />
-		<Button />
-		<Button />
+		<Button text="ADD TO CALENDAR" />
+		<Button text="NEWSLETTER SIGN UP" />
 	</div>
 
 	<div class="footer">

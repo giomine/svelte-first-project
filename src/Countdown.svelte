@@ -50,7 +50,7 @@
         <div class="countdown-button">
 
         </div>
-        <Button />
+        <Button text="WATCH TEASER" isRed={true} />
     </div>
 </main>
 
@@ -58,7 +58,7 @@
 <style>
     h3{
         letter-spacing: 8px;
-        color: rgb(167, 7, 7);
+        color: rgb(184, 62, 16);
     }
    
     .countdown-container{

@@ -23,7 +23,7 @@
     }
     a:hover{
         /* color: rgb(226, 226, 226); */
-        color: rgb(201, 8, 8);
+        color: rgb(184, 62, 16);
     }
     .header{
 		height: 50px;
