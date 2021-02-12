@@ -26,10 +26,6 @@
 	a{
 		text-decoration-line: none;
 	}
-	/* a:hover{
-		box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
-    	transform: translate3D(0, -2px, 0);
-	} */
 	.middle{
 		height: 100vh;
 		background: black;

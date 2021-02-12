@@ -29,7 +29,7 @@
 		background: black;
 		display: flex;
 		justify-content: space-between;
-		border-bottom: 1px solid rgb(14, 14, 14);
+		border-bottom: 2px solid rgb(14, 14, 14);
 	}
 
 	.square-logo{
