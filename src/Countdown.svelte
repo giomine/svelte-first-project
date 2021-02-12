@@ -23,22 +23,22 @@
         <div class="countdown">
             <div class="countdays">
                 <div id="days" class="numbers"></div>
-                <p class="countdowntext">DAYS</p>
+                <p class="countdowntext nudge">DAYS</p>
             </div>
 
             <div class="counthours">
                 <div id="hours" class="numbers"></div>
-                <p class="countdowntext">HOURS</p>
+                <p class="countdowntext nudge">HOURS</p>
             </div>
 
             <div class="countminutes">
                 <div id="minutes" class="numbers"></div>
-                <p class="countdowntext">MINUTES</p>
+                <p class="countdowntext nudge">MINS</p>
             </div>
 
             <div class="countseconds">
                 <div id="seconds" class="numbers"></div>
-                <p class="countdowntext">SECONDS</p>
+                <p class="countdowntext nudge-right">SECS</p>
             </div>			
         </div>
         <div class="reveal">
@@ -69,12 +69,23 @@
 	.numbers{
 		font-size: 100px;
 		line-height: 0.8;
-		margin: 20px 0 0 20px;
+        margin: 20px 0 5px 20px;
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 800;
 	}
 
 	.countdowntext{
-		margin: 0;
-		font-size: 15px;
-		letter-spacing: 4px;
-	}
+        margin: 0;
+		font-size: 20px;
+        letter-spacing: 8px;
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+    }
+    .nudge {
+        margin-right: 10px;
+    }
+
+    .nudge-right{
+        margin-left: 20px;
+    }
 </style>
