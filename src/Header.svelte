@@ -9,14 +9,22 @@
 			<div class="triangle">	
 			</div>
 			<div class="login">
-				<p>JOIN</p>
-				<p>LOG IN</p>
+				<a href="http://square-enix-games.com"><p>JOIN</p></a>
+				<a href="http://square-enix-games.com"><p>LOG IN</p></a>
 			</div>
 		</div>	
 	</div>
 </main>
 
 <style>
+    a{
+        text-decoration-line: none;
+        color: black;
+    }
+    a:hover{
+        /* color: rgb(226, 226, 226); */
+        color: rgb(201, 8, 8);
+    }
     .header{
 		height: 50px;
 		background: black;
