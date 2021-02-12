@@ -8,7 +8,7 @@
     <div class="container">
         <div class="icon-container">
             <div class="icons">
-                <img src="/images/rating.png" alt="rating logo">
+                <img class="rating-logo" src="/images/rating.png" alt="rating logo">
             </div>
             <div class="icons">
                 <img src="/images/xbox-logo.png" alt="Xbox logo">
@@ -20,7 +20,7 @@
                 <img src="/images/steamlogo.png" alt="steam logo">
             </div>
             <div class="icons">
-                <img src="/images/pclogo.png" alt="PC logo">
+                <img class="pc-logo" src="/images/pclogo.png" alt="PC logo">
             </div>   
         </div>
 
@@ -59,6 +59,7 @@
     }
     .icon-container{
         height: 100px;
+        height: 90px;
         margin: 50px 200px;
         display: flex;
         justify-content: space-between;
@@ -67,6 +68,12 @@
     .icons{
         display: flex;
         align-items: center;
+    }
+    .rating-logo{
+        width: 250px;
+    }
+    .pc-logo{
+        width: 100px;
     }
     .squarelogo{
         display: flex;
