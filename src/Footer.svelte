@@ -38,6 +38,11 @@
                  owners. All rights reserved.
             </p>
         </div>
+
+        <div class="legal-links">
+            <p>COOKIE POLICY • TERMS OF USE • PRIVACY POLICY • SUPPORT • MATERIAL USAGE</p>
+        </div>
+
     </div>
 </main>
 
@@ -45,8 +50,9 @@
 
 <style>
     main{
-		height: 50vh;
-		background: white;
+		height: 45vh;
+        background: white;
+        color: rgb(150, 150, 150);
     }
     img{
         width: 180px;
@@ -75,7 +81,14 @@
         margin: 25px 30px;
         line-height: 1.6;
         letter-spacing: .01em;
-        text-align: center;
-        color: rgb(150, 150, 150);
+        text-align: center;   
+    }
+    .legal-links{
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .legal-links p{
+        margin: 0;
     }
 </style>
