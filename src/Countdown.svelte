@@ -42,7 +42,8 @@
             </div>			
         </div>
         <div class="reveal">
-            
+            <div class="hr"></div>
+            <h3>REVEAL EVENT APRIL 27TH</h3>
         </div>
         <div class="countdown-button">
 
@@ -52,13 +53,20 @@
 
 
 <style>
+    h3{
+        letter-spacing: 8px;
+        color: rgb(167, 7, 7);
+    }
+   
     .countdown-container{
 		height: 300px;
 		width: 650px;
-		background: gray;
 		color: white;
 		text-align: center;
-		margin-top: 100px;
+        margin-top: 125px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 	}
 
 	.countdown{
@@ -87,5 +95,12 @@
 
     .nudge-right{
         margin-left: 20px;
+    }
+
+    .hr{
+        height: 2px;
+        width: 520px;
+        background: rgb(129, 129, 129);
+        margin-top: 20px;
     }
 </style>
