@@ -2,6 +2,7 @@
 	import Header from "./Header.svelte";
 	import Countdown from "./Countdown.svelte";
 	import Button from "./Button.svelte";
+	import Footer from "./Footer.svelte";
 </script>
 
 <main>
@@ -14,12 +15,15 @@
 		<Countdown />
 		<Button text="ADD TO CALENDAR" />
 		<a href="https://square-enix-games.com/"><Button text="NEWSLETTER SIGN UP" /></a>
+		<div class="socialmedia">
+			<i class="fab fa-facebook fa-2x"></i>
+			<i class="fab fa-twitter fa-2x"></i>
+			<i class="fab fa-google-plus fa-2x"></i>
+			<i class="fab fa-youtube-square fa-2x"></i>
+			<i class="fab fa-instagram fa-2x"></i>
+        </div>
 	</div>
-
-	<div class="footer">
-
-	</div>
-	
+	<Footer />
 </main>
 
 <style>
@@ -27,7 +31,7 @@
 		text-decoration-line: none;
 	}
 	.middle{
-		height: 100vh;
+		height: 106vh;
 		background: black;
 		display: flex;
 		flex-direction: column;
@@ -39,8 +43,11 @@
 		width: 660px;
 	}
 
-	.footer{
-		height: 50vh;
-		background: white;
+	.socialmedia{
+		margin-top: 35px;
+		width: 250px;
+		display: flex;
+		justify-content: space-between;
+		color: rgb(218, 218, 218);
 	}
 </style>
