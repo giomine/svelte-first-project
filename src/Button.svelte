@@ -29,6 +29,9 @@
         justify-content: center;
         align-items: center;
     }
+    .button:hover{
+    	transform: translate3D(0, -2px, 0);
+    }
     .color{
         background: rgb(184, 62, 16);
     }

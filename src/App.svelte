@@ -13,7 +13,7 @@
 		</div>
 		<Countdown />
 		<Button text="ADD TO CALENDAR" />
-		<Button text="NEWSLETTER SIGN UP" />
+		<a href="https://square-enix-games.com/"><Button text="NEWSLETTER SIGN UP" /></a>
 	</div>
 
 	<div class="footer">
@@ -23,6 +23,13 @@
 </main>
 
 <style>
+	a{
+		text-decoration-line: none;
+	}
+	/* a:hover{
+		box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    	transform: translate3D(0, -2px, 0);
+	} */
 	.middle{
 		height: 100vh;
 		background: black;
