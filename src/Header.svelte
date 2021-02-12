@@ -1,0 +1,52 @@
+<script>
+
+</script>
+
+<main>
+    <div class="header">
+		<img class="square-logo" src="https://cdn.sqexeu.com/headerbar/images/SE_Logo_White.svg" alt="">
+		<div class="login-container">
+			<div class="triangle">	
+			</div>
+			<div class="login">
+				<p>JOIN</p>
+				<p>LOG IN</p>
+			</div>
+		</div>	
+	</div>
+</main>
+
+<style>
+    .header{
+		height: 50px;
+		background: black;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid rgb(14, 14, 14);
+	}
+
+	.square-logo{
+		height: 20px;
+		padding: 15px 20px;
+	}
+
+	.login-container{
+		display: flex;
+	}
+	.login{
+		background: white;
+		height: 50px;
+		width: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 20px;
+		font-size: 0.8rem;
+		font-weight: bold;
+	}
+	.triangle{
+		 background:linear-gradient(to bottom right,rgb(0, 0, 0) 50%,rgb(255, 255, 255) 50%);
+		 height: 50px;
+		 width: 50px;
+	}
+</style>
