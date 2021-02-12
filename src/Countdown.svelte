@@ -1,4 +1,6 @@
 <script>
+    import Button from "./Button.svelte"
+
     var countDownDate = new Date("Apr 27, 2021 15:37:25").getTime();
 	var x = setInterval(function() {
 		var now = new Date().getTime();
@@ -48,6 +50,7 @@
         <div class="countdown-button">
 
         </div>
+        <Button />
     </div>
 </main>
 
@@ -64,6 +67,7 @@
 		color: white;
 		text-align: center;
         margin-top: 125px;
+        margin-bottom: 80px;
         display: flex;
         flex-direction: column;
         align-items: center;

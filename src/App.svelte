@@ -1,6 +1,7 @@
 <script>
 	import Header from "./Header.svelte";
 	import Countdown from "./Countdown.svelte";
+	import Button from "./Button.svelte";
 </script>
 
 <main>
@@ -11,6 +12,8 @@
 			<img class="tomb-raider-logo" src="/images/tomb-raider-logo.png" alt="">
 		</div>
 		<Countdown />
+		<Button />
+		<Button />
 	</div>
 
 	<div class="footer">
