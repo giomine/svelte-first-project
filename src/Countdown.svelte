@@ -1,7 +1,7 @@
 <script>
     import Button from "./Button.svelte"
 
-    var countDownDate = new Date("Apr 27, 2021 15:37:25").getTime();
+    var countDownDate = new Date("Feb 13, 2021 10:58:10").getTime();
 	var x = setInterval(function() {
 		var now = new Date().getTime();
 		var distance = countDownDate - now;
@@ -14,10 +14,18 @@
 		document.getElementById("minutes").innerHTML = minutes + " :";
 		document.getElementById("seconds").innerHTML = seconds;
 		if (distance < 0) {
-		clearInterval(x);
-		// document.getElementById("numbers").innerHTML = "EXPIRED";
+            document.getElementById("days").innerHTML = "0:";
+            document.getElementById("hours").innerHTML = "0:";
+            document.getElementById("minutes").innerHTML = "0:";
+            document.getElementById("seconds").innerHTML = "0";
+            document.getElementById("revealtoday").innerText = "REVEAL EVENT TODAY!";
+        clearInterval(x); 
+        if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            window.location.reload();
+        }
 	}
-	}, 1000);
+    }, 1000);
 </script>
 
 <main>
@@ -45,7 +53,7 @@
         </div>
         <div class="reveal">
             <div class="hr"></div>
-            <h3>REVEAL EVENT APRIL 27TH</h3>
+            <h3 id="revealtoday">REVEAL EVENT APRIL 27TH</h3>
         </div>
         <div class="countdown-button">
 
