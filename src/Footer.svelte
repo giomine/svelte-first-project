@@ -78,6 +78,7 @@
     .squarelogo{
         display: flex;
         justify-content: center;
+        align-items: flex-start;
     }
     .squarelogo img {
         width: 250px;
