@@ -8,7 +8,7 @@
     <div class="container">
         <div class="icon-container">
             <div class="icons">
-                <img class="rating-logo" src="/images/rating.png" alt="rating logo">
+                <img class="rating-logo" src="/images/RP.png" alt="rating logo">
             </div>
             <div class="icons">
                 <img src="/images/xbox-logo.png" alt="Xbox logo">
@@ -17,10 +17,10 @@
                 <img src="/images/ps4logo.png" alt="playstation 4 logo">
             </div>
             <div class="icons">
-                <img src="/images/steamlogo.png" alt="steam logo">
+                <img src="/images/Steam.png" alt="steam logo">
             </div>
             <div class="icons">
-                <img class="pc-logo" src="/images/pclogo.png" alt="PC logo">
+                <img class="pc-logo" src="/images/PC.png" alt="PC logo">
             </div>   
         </div>
 
@@ -70,10 +70,10 @@
         align-items: center;
     }
     .rating-logo{
-        width: 250px;
+        width: 380px;
     }
     .pc-logo{
-        width: 100px;
+        width: 70px;
     }
     .squarelogo{
         display: flex;
