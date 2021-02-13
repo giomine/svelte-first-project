@@ -1,5 +1,18 @@
 <script>
     import Button from "./Button.svelte"
+    import Video from "./Video.svelte";
+    let showModal = false;
+
+    const toggleModal = () => {
+		console.log("Clicked!");
+		showModal = !showModal;
+	}
+
+    const handlePopUp = () => {
+        console.log("clicked");
+        alert("clicked!");
+        showModal = !showModal;
+    }
 
     var countDownDate = new Date("Feb 13, 2021 10:58:10").getTime();
 	var x = setInterval(function() {
@@ -58,7 +71,9 @@
         <div class="countdown-button">
 
         </div>
-        <Button text="WATCH TEASER" isRed={true} />
+        <Button text="WATCH TEASER" isRed={true} {showModal} on:click={toggleModal} on:click={handlePopUp} />
+        <Video videoId="vuemrb_ur2w" {showModal} on:click={toggleModal} /> <!-- Can view by changing showModal above to true, can't figure out how to trigger this by clicking on the button -->
+
     </div>
 </main>
 

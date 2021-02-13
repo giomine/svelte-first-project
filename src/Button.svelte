@@ -1,11 +1,10 @@
 <script>    
     export let text;
-    export let isRed = false; 
+    export let isRed = false;
 </script>
 
-
 <main>
-    <div class="button" class:color={isRed}>
+    <div class="button" class:color={isRed} on:click>
     <p>{text}</p>
     </div>
 </main>
