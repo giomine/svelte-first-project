@@ -1,7 +1,7 @@
 <script>
     import Button from "./Button.svelte"
     import Video from "./Video.svelte";
-    let showModal = false;
+    let showModal = false; // toggle this to see video pop up
 
     const toggleModal = () => {
 		console.log("Clicked!");
@@ -73,7 +73,6 @@
         </div>
         <Button text="WATCH TEASER" isRed={true} {showModal} on:click={toggleModal} on:click={handlePopUp} />
         <Video videoId="vuemrb_ur2w" {showModal} on:click={toggleModal} /> <!-- Can view by changing showModal above to true, can't figure out how to trigger this by clicking on the button -->
-
     </div>
 </main>
 
