@@ -13,7 +13,8 @@
 			<img class="tomb-raider-logo" src="/images/tomb-raider-logo.png" alt="">
 		</div>
 		<Countdown />
-		<Button text="ADD TO CALENDAR" />
+		<!-- BUTTON MODULES -->
+		<a title="Add to Calendar" data-id="of6047180" href="	https://www.addevent.com/event/of6047180+google" target="_blank" rel="nofollow"><Button text="ADD TO CALENDAR" /></a>
 		<a href="https://square-enix-games.com/"><Button text="NEWSLETTER SIGN UP" /></a>
 		<div class="socialmedia">
 			<i class="fab fa-facebook fa-2x"></i>
