@@ -14,7 +14,7 @@
         showModal = !showModal;
     }
 
-    var countDownDate = new Date("Feb 13, 2021 10:58:10").getTime();
+    var countDownDate = new Date("Feb 13, 2021 16:14:50").getTime();
 	var x = setInterval(function() {
 		var now = new Date().getTime();
 		var distance = countDownDate - now;
