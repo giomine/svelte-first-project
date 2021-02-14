@@ -4,7 +4,7 @@
 
 <main>
     <div class="header">
-		<img class="square-logo" src="https://cdn.sqexeu.com/headerbar/images/SE_Logo_White.svg" alt="">
+		<img class="square-logo" src="https://cdn.sqexeu.com/headerbar/images/SE_Logo_White.svg" alt="square enix logo">
 		<div class="login-container">
 			<div class="triangle">	
 			</div>

@@ -19,7 +19,7 @@ const toggleModal = () => {
 
 	<div class="middle">
 		<div class="tomb-raider">
-			<img class="tomb-raider-logo" src="/images/tomb-raider-logo.png" alt="">
+			<img class="tomb-raider-logo" src="/images/tomb-raider-logo.png" alt="tomb raider logo">
 		</div>
 		<Countdown />
 		<!-- BUTTON COMPONENTS -->

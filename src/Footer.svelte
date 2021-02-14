@@ -25,7 +25,7 @@
         </div>
 
         <div class="squarelogo">
-            <img src="/images/squarelogo.png" alt="">
+            <img src="/images/squarelogo.png" alt="square enix logo">
         </div>
 
         <div class="legal">
