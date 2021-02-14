@@ -1,20 +1,5 @@
 <script>
-    //import Button from "./Button.svelte"
-    // import Video from "./Video.svelte";
-    // let showModal = true; // toggle this to see video pop up
-
-    // const toggleModal = () => {
-	// 	console.log("Clicked!");
-	// 	showModal = !showModal;
-	// }
-
-    // const handlePopUp = () => {
-    //     console.log("clicked");
-    //     alert("clicked!");
-    //     showModal = !showModal;
-    // }
-
-    var countDownDate = new Date("Feb 14, 2021 14:00:59").getTime();
+    var countDownDate = new Date("Apr 17, 2021 15:19:10").getTime();
 	var x = setInterval(function() {
 		var now = new Date().getTime();
 		var distance = countDownDate - now;
@@ -69,11 +54,6 @@
             <div class="hr"></div>
             <h3 id="revealtoday">REVEAL EVENT APRIL 27TH</h3>
         </div>
-        <!-- <div class="countdown-button">
-
-        </div> -->
-        <!-- <Button text="WATCH TEASER" isRed={true} {showModal} on:click={toggleModal} on:click={handlePopUp} /> -->
-        <!-- <Video videoId="vuemrb_ur2w" {showModal} on:click={toggleModal} /> Can view by changing showModal above to true, can't figure out how to trigger this by clicking on the button -->
     </div>
 </main>
 
@@ -90,7 +70,6 @@
 		color: white;
 		text-align: center;
         margin-top: 125px;
-        /* margin-bottom: 80px; */
         display: flex;
         flex-direction: column;
         align-items: center;

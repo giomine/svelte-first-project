@@ -23,17 +23,17 @@ const toggleModal = () => {
 		</div>
 		<Countdown />
 		<!-- BUTTON COMPONENTS -->
-		<Button text="WATCH TEASER" isRed={true} {showModal} on:click={toggleModal} />
+		<Button text="WATCH TEASER" isRed={true} on:click={toggleModal} />
 		<div class="button-position">
-			<a title="Add to Calendar" data-id="of6047180" href="	https://www.addevent.com/event/of6047180+google" target="_blank" rel="nofollow"><Button text="ADD TO CALENDAR" /></a>
-		<a href="https://square-enix-games.com/"><Button text="NEWSLETTER SIGN UP" /></a>
-		<div class="socialmedia">
-			<i class="fab fa-facebook fa-2x"></i>
-			<i class="fab fa-twitter fa-2x"></i>
-			<i class="fab fa-google-plus fa-2x"></i>
-			<i class="fab fa-youtube-square fa-2x"></i>
-			<i class="fab fa-instagram fa-2x"></i>
-        </div>
+			<a title="Add to Calendar" data-id="of6047180" href="https://www.addevent.com/event/of6047180+google" target="_blank" rel="nofollow"><Button text="ADD TO CALENDAR" /></a>
+			<a href="https://square-enix-games.com/"><Button text="NEWSLETTER SIGN UP" /></a>
+			<div class="socialmedia">
+				<i class="fab fa-facebook fa-2x"></i>
+				<i class="fab fa-twitter fa-2x"></i>
+				<i class="fab fa-google-plus fa-2x"></i>
+				<i class="fab fa-youtube-square fa-2x"></i>
+				<i class="fab fa-instagram fa-2x"></i>
+			</div>
 		</div>
 		
 	</div>

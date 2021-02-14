@@ -32,22 +32,12 @@
 {#if showModal}
 <div class="backdrop" on:click|self>
     <div>
-        <!-- <slot></slot> -->
         <div class="videocontainer">
             <div id="player" class="videoposition"></div>
         </div>
     </div>
 </div>
 {/if}
-
-
- <!-- YT-Component VID: {videoId} <br> -->
-<!-- <div class="videocontainer">
-    <div>X</div>
-    <div id="player" class="videoposition"></div>
-</div> -->
-
-
 
 <style>
 .backdrop{
@@ -60,7 +50,6 @@
     display: flex;
     justify-content: center;
     position: relative;
-    /* bottom: 450px; */
     top: 150px;
 
 }
