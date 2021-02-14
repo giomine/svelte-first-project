@@ -50,17 +50,19 @@
 
 
 <style>
-/* .backdrop{
+.backdrop{
     width: 100%;
     height: 100%;
     position: fixed;
     background: rgba(0,0,0,0.8)
-} */
+}
 .videocontainer{
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 450px;
+    /* bottom: 450px; */
+    top: 150px;
+
 }
 
 .videoposition{

@@ -1,9 +1,18 @@
 <script>
+	import Video from "./Video.svelte";
 	import Header from "./Header.svelte";
 	import Countdown from "./Countdown.svelte";
 	import Button from "./Button.svelte";
 	import Footer from "./Footer.svelte";
+	let showModal = true; // toggle this to see video pop up
+
+const toggleModal = () => {
+	console.log("Clicked!");
+	showModal = !showModal;
+}
 </script>
+
+<Video videoId="vuemrb_ur2w" {showModal} on:click={toggleModal} />
 
 <main>
 	<Header />
@@ -14,7 +23,9 @@
 		</div>
 		<Countdown />
 		<!-- BUTTON COMPONENTS -->
-		<a title="Add to Calendar" data-id="of6047180" href="	https://www.addevent.com/event/of6047180+google" target="_blank" rel="nofollow"><Button text="ADD TO CALENDAR" /></a>
+		<Button text="WATCH TEASER" isRed={true} {showModal} on:click={toggleModal} />
+		<div class="button-position">
+			<a title="Add to Calendar" data-id="of6047180" href="	https://www.addevent.com/event/of6047180+google" target="_blank" rel="nofollow"><Button text="ADD TO CALENDAR" /></a>
 		<a href="https://square-enix-games.com/"><Button text="NEWSLETTER SIGN UP" /></a>
 		<div class="socialmedia">
 			<i class="fab fa-facebook fa-2x"></i>
@@ -23,6 +34,8 @@
 			<i class="fab fa-youtube-square fa-2x"></i>
 			<i class="fab fa-instagram fa-2x"></i>
         </div>
+		</div>
+		
 	</div>
 	<Footer />
 </main>
@@ -32,7 +45,7 @@
 		text-decoration-line: none;
 	}
 	.middle{
-		height: 106vh;
+		height: 815px;
 		background: black;
 		display: flex;
 		flex-direction: column;
@@ -42,6 +55,13 @@
 
 	.tomb-raider-logo{
 		width: 660px;
+	}
+
+	.button-position{
+		height: 700px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
 	}
 
 	.socialmedia{
