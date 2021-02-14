@@ -14,7 +14,7 @@
         showModal = !showModal;
     }
 
-    var countDownDate = new Date("Feb 13, 2021 16:14:50").getTime();
+    var countDownDate = new Date("Feb 14, 2021 13:51:00").getTime();
 	var x = setInterval(function() {
 		var now = new Date().getTime();
 		var distance = countDownDate - now;
@@ -32,6 +32,7 @@
             document.getElementById("minutes").innerHTML = "0:";
             document.getElementById("seconds").innerHTML = "0";
             document.getElementById("revealtoday").innerText = "REVEAL EVENT TODAY!";
+            confetti.start();
         clearInterval(x); 
         if(!window.location.hash) {
             window.location = window.location + '#loaded';
