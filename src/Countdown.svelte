@@ -5,7 +5,7 @@
     export let minUnit = "MINS";
     export let secUnit = "SECS";
     export let largeText = false;
-    var countDownDate = new Date("Feb 15, 2021 13:01:00").getTime();
+    var countDownDate = new Date("Apr 17, 2021 00:00:00").getTime();
 	var x = setInterval(function() {
 		var now = new Date().getTime();
 		var distance = countDownDate - now;
