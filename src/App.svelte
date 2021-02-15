@@ -25,6 +25,9 @@ const toggleModal = () => {
 	<Route path="jp">
 		<Jp />
 	</Route>
+	<Route path="jp#loaded">
+		<Jp />
+	</Route>
 	<Footer />
 </main>
 </Router>
