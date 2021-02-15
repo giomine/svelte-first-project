@@ -3,7 +3,7 @@
 	import Header from "./Header.svelte";
 	import Countdown from "./Countdown.svelte";
 	import Button from "./Button.svelte";
-	let showModal = true; // toggle this to see video pop up
+	let showModal = false;
 
 const toggleModal = () => {
 	console.log("Clicked!");
