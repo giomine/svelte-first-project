@@ -14,7 +14,7 @@ const toggleModal = () => {
 <Video videoId="vuemrb_ur2w" {showModal} on:click={toggleModal} />
 
 <main>
-	<Header />
+	<Header join="新規登録" login="ログイン" loginBarJP={true} />
 
 	<div class="middle">
 		<div class="tomb-raider">

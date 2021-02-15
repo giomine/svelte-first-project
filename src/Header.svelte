@@ -1,5 +1,8 @@
 <script>
 	import { Router, Route, Link } from "svelte-navigator";
+	export let join = "JOIN";
+	export let login = "LOG IN";
+	export let loginBarJP = false;
 </script>
 
 <main>
@@ -12,9 +15,9 @@
 			</nav>
 			<div class="triangle">	
 			</div>
-			<div class="login">
-				<a href="http://square-enix-games.com"><p>JOIN</p></a>
-				<a href="http://square-enix-games.com"><p>LOG IN</p></a>
+			<div class="login" class:loginJP={loginBarJP}>
+				<a href="http://square-enix-games.com"><p>{join}</p></a>
+				<a href="http://square-enix-games.com"><p>{login}</p></a>
 			</div>
 		</div>	
 	</div>
@@ -61,6 +64,11 @@
 		padding: 0 20px;
 		font-size: 0.8rem;
 		font-weight: bold;
+	}
+	.loginJP{
+		width: 115px;
+		font-size: 0.9rem;
+		padding-left: 5px;
 	}
 	.triangle{
 		 background:linear-gradient(to bottom right,rgb(0, 0, 0) 50%,rgb(255, 255, 255) 50%);
