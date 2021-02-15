@@ -6,9 +6,9 @@
     <div class="header">
 		<img class="square-logo" src="https://cdn.sqexeu.com/headerbar/images/SE_Logo_White.svg" alt="square enix logo">
 		<div class="login-container">
-			<nav>
-				<Link to="/">GB</Link>
-				<Link to="jp">JP</Link>
+			<nav class="flags">
+				<Link to="/">🇬🇧</Link>
+				<Link to="jp">🇯🇵</Link>
 			</nav>
 			<div class="triangle">	
 			</div>
@@ -43,6 +43,13 @@
 
 	.login-container{
 		display: flex;
+	}
+	.flags{
+		width: 50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-right: 20px;
 	}
 	.login{
 		background: white;
