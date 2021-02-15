@@ -57,7 +57,7 @@
             </div>			
         </div>
         <div class="reveal">
-            <div class="hr"></div>
+            <div class:space={largeText} class="hr"></div>
             <h3 class:large={largeText} id="revealtoday">{reveal}</h3>
         </div>
     </div>
@@ -72,6 +72,11 @@
 
     .large{
         font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .space{
+        margin-top: 20px !important;
     }
    
     .countdown-container{
