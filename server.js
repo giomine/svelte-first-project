@@ -8,8 +8,8 @@ app.get("/", function(req, res){
     res.sendFile(path.join(__dirname, "public", "index.html"));
 })
 
-app.get("/end", function(req, res){
-    res.send("Great job!");
+app.get("/jp", function(req, res){
+    res.sendFile(path.join(__dirname, "public", "index.html"));
 })
 
 app.listen(process.env.port || 3000, function(){
