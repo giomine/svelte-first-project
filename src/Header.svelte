@@ -1,11 +1,15 @@
 <script>
-
+	import { Router, Route, Link } from "svelte-navigator";
 </script>
 
 <main>
     <div class="header">
 		<img class="square-logo" src="https://cdn.sqexeu.com/headerbar/images/SE_Logo_White.svg" alt="square enix logo">
 		<div class="login-container">
+			<nav>
+				<Link to="/">GB</Link>
+				<Link to="jp">JP</Link>
+			</nav>
 			<div class="triangle">	
 			</div>
 			<div class="login">

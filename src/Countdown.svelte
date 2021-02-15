@@ -1,4 +1,10 @@
 <script>
+    export let reveal = "REVEAL EVENT APRIL 27TH";
+    export let dayUnit = "DAYS";
+    export let hourUnit = "HOURS";
+    export let minUnit = "MINS";
+    export let secUnit = "SECS";
+    export let largeText = false;
     var countDownDate = new Date("Apr 17, 2021 15:19:10").getTime();
 	var x = setInterval(function() {
 		var now = new Date().getTime();
@@ -32,27 +38,27 @@
         <div class="countdown">
             <div class="countdays">
                 <div id="days" class="numbers"></div>
-                <p class="countdowntext nudge">DAYS</p>
+                <p class="countdowntext nudge">{dayUnit}</p>
             </div>
 
             <div class="counthours">
                 <div id="hours" class="numbers"></div>
-                <p class="countdowntext nudge">HOURS</p>
+                <p class="countdowntext nudge">{hourUnit}</p>
             </div>
 
             <div class="countminutes">
                 <div id="minutes" class="numbers"></div>
-                <p class="countdowntext nudge">MINS</p>
+                <p class="countdowntext nudge">{minUnit}</p>
             </div>
 
             <div class="countseconds">
                 <div id="seconds" class="numbers"></div>
-                <p class="countdowntext nudge-right">SECS</p>
+                <p class="countdowntext nudge-right">{secUnit}</p>
             </div>			
         </div>
         <div class="reveal">
             <div class="hr"></div>
-            <h3 id="revealtoday">REVEAL EVENT APRIL 27TH</h3>
+            <h3 class:large={largeText} id="revealtoday">{reveal}</h3>
         </div>
     </div>
 </main>
@@ -62,6 +68,10 @@
     h3{
         letter-spacing: 8px;
         color: rgb(184, 62, 16);
+    }
+
+    .large{
+        font-size: 2rem;
     }
    
     .countdown-container{

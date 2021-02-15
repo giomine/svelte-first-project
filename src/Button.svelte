@@ -1,11 +1,12 @@
 <script>    
     export let text;
     export let isRed = false;
+    export let smallText = false;
 </script>
 
 <main>
     <div class="button" class:color={isRed} on:click>
-    <p>{text}</p>
+    <p class:small={smallText}>{text}</p>
     </div>
 </main>
 
@@ -35,7 +36,9 @@
     }
     .color{
         background: rgb(184, 62, 16);
-        /* background: linear-gradient(0deg, rgba(122, 40, 10, 0.7), rgba(122, 40, 10, 0.7)), url("/images/buttonbg.jpg"); */
-        
+        /* background: linear-gradient(0deg, rgba(122, 40, 10, 0.7), rgba(122, 40, 10, 0.7)), url("/images/buttonbg.jpg"); */      
+    }
+    .small{
+        font-size: 1.2rem;
     }
 </style>
