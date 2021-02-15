@@ -14,7 +14,7 @@ const toggleModal = () => {
 <Video videoId="vuemrb_ur2w" {showModal} on:click={toggleModal} />
 
 <main>
-	<Header join="新規登録" login="ログイン" loginBarJP={true} />
+	<Header join="新規登録" login="ログイン" loginBarJP={true} squareEnixJP="https://www.jp.square-enix.com" />
 
 	<div class="middle">
 		<div class="tomb-raider">
@@ -22,10 +22,10 @@ const toggleModal = () => {
 		</div>
 		<Countdown reveal="発表会2021年4月27日" dayUnit="日" hourUnit="時" minUnit="分" secUnit="秒" largeText={true} />
 		<!-- BUTTON COMPONENTS -->
-		<Button text="ティーザー" isRed={true} smallText={true} on:click={toggleModal} />
+		<Button text="ティーザー" isRed={true} smallText={true} on:click={toggleModal}  />
 		<div class="button-position">
 			<a title="Add to Calendar" data-id="of6047180" href="https://www.addevent.com/event/of6047180+google" target="_blank" rel="nofollow"><Button text="カレンダーに追加" smallText={true} /></a>
-			<a href="https://square-enix-games.com/"><Button text="ニュースレター登録" smallText={true} /></a>
+			<a href="https://www.jp.square-enix.com"><Button text="ニュースレター登録" smallText={true} /></a>
 			<div class="socialmedia">
 				<i class="fab fa-facebook fa-2x"></i>
 				<i class="fab fa-twitter fa-2x"></i>

@@ -3,6 +3,7 @@
 	export let join = "JOIN";
 	export let login = "LOG IN";
 	export let loginBarJP = false;
+	export let squareEnixJP = "http://square-enix-games.com";
 </script>
 
 <main>
@@ -16,8 +17,8 @@
 			<div class="triangle">	
 			</div>
 			<div class="login" class:loginJP={loginBarJP}>
-				<a href="http://square-enix-games.com"><p>{join}</p></a>
-				<a href="http://square-enix-games.com"><p>{login}</p></a>
+				<a href="{squareEnixJP}"><p>{join}</p></a>
+				<a href="{squareEnixJP}"><p>{login}</p></a>
 			</div>
 		</div>	
 	</div>
