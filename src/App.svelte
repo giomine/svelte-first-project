@@ -1,5 +1,5 @@
 <script>
-	import { Router, Route, Link } from "svelte-navigator";
+	import { Router, Route } from "svelte-navigator";
 	import Home from "./Home.svelte";
   	import Jp from "./jp.svelte";
 	import Video from "./Video.svelte";
@@ -26,6 +26,12 @@ const toggleModal = () => {
 		<Jp />
 	</Route>
 	<Route path="jp#loaded">
+		<Jp />
+	</Route>
+	<Route path="jp/jp">
+		<Jp />
+	</Route>
+	<Route path="jp/jp/jp">
 		<Jp />
 	</Route>
 	<Footer />

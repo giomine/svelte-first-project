@@ -1,5 +1,5 @@
 <script>
-	import { Router, Route, Link } from "svelte-navigator";
+	import { Link } from "svelte-navigator";
 	export let join = "JOIN";
 	export let login = "LOG IN";
 	export let loginBarJP = false;
