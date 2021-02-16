@@ -17,8 +17,8 @@
 			<div class="triangle">	
 			</div>
 			<div class="login" class:loginJP={loginBarJP}>
-				<a href="{squareEnixJP}"><p>{join}</p></a>
-				<a href="{squareEnixJP}"><p>{login}</p></a>
+				<a href="{squareEnixJP}" target="_blank" rel="noopener noreferrer"><p>{join}</p></a>
+				<a href="{squareEnixJP}" target="_blank" rel="noopener noreferrer"><p>{login}</p></a>
 			</div>
 		</div>	
 	</div>

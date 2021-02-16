@@ -25,7 +25,7 @@ const toggleModal = () => {
 		<Button text="ティーザー" isRed={true} smallText={true} on:click={toggleModal}  />
 		<div class="button-position">
 			<a title="Add to Calendar" data-id="of6047180" href="https://www.addevent.com/event/of6047180+google" target="_blank" rel="nofollow"><Button text="カレンダーに追加" smallText={true} /></a>
-			<a href="https://www.jp.square-enix.com"><Button text="ニュースレター登録" smallText={true} /></a>
+			<a href="https://www.jp.square-enix.com" target="_blank" rel="noopener noreferrer"><Button text="ニュースレター登録" smallText={true} /></a>
 			<div class="socialmedia">
 				<i class="fab fa-facebook fa-2x"></i>
 				<i class="fab fa-twitter fa-2x"></i>
