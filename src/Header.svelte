@@ -33,6 +33,7 @@
         color: rgb(184, 62, 16);
     }
     .header{
+		width: 100vw;
 		height: 50px;
 		background: black;
 		display: flex;
@@ -75,5 +76,11 @@
 		 background:linear-gradient(to bottom right,rgb(0, 0, 0) 50%,rgb(255, 255, 255) 50%);
 		 height: 50px;
 		 width: 50px;
+	}
+
+	@media (max-width: 400px){
+		.square-logo { width: 150px; padding: 15px 10px; }
+		.triangle { height: 0; width: 0; }
+		.login { width: 120px; padding: 0; justify-content: space-evenly; }
 	}
 </style>

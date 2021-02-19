@@ -69,4 +69,15 @@ const toggleModal = () => {
 		justify-content: space-between;
 		color: rgb(218, 218, 218);
 	}
+
+	@media (max-width: 800px){
+		.tomb-raider { display:flex; justify-content: center; align-items: flex-start; }
+		.tomb-raider-logo { width: 90%; }
+	}
+
+	@media (max-width: 400px){
+		.tomb-raider { position: relative; top: 50px; }
+		.middle { height: 700px; }
+		.button-position { height: 250px; }
+	}
 </style>

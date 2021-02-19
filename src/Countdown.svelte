@@ -82,6 +82,7 @@
     .countdown-container{
 		height: 210px;
 		width: 650px;
+        width: 100vw;  /* new */
 		color: white;
 		text-align: center;
         margin-top: 125px;
@@ -123,5 +124,20 @@
         width: 520px;
         background: rgb(129, 129, 129);
         margin-top: 20px;
+    }
+
+    @media (max-width: 800px){
+        .countdown { width: 100%; }
+        .numbers { font-size: 90px; margin: 20px 0 5px 5px; }
+        .nudge { margin-right: 30px; }
+        .hr { width: 470px; position: relative; left: 5px; }
+	}
+
+    @media (max-width: 400px){
+        h3 { font-size: 25px; }
+        .numbers { font-size: 60px; margin: 20px 0 5px 5px; }
+        .countdowntext { font-size: 15px; }
+        .nudge { margin-right: 10px; }
+        .hr { width: 350px; position: relative; left: 12px; }
     }
 </style>

@@ -20,7 +20,7 @@ const toggleModal = () => {
 		<div class="tomb-raider">
 			<img class="tomb-raider-logo" src="/images/tomb-raider-logo.png" alt="tomb raider logo">
 		</div>
-		<Countdown reveal="発表会2021年4月27日" dayUnit="日" hourUnit="時" minUnit="分" secUnit="秒" largeText={true} />
+		<Countdown reveal="発表会4月27日" dayUnit="日" hourUnit="時" minUnit="分" secUnit="秒" largeText={true} />
 		<!-- BUTTON COMPONENTS -->
 		<Button text="ティーザー" isRed={true} smallText={true} on:click={toggleModal}  />
 		<div class="button-position">
@@ -68,5 +68,16 @@ const toggleModal = () => {
 		display: flex;
 		justify-content: space-between;
 		color: rgb(218, 218, 218);
+	}
+
+	@media (max-width: 800px){
+		.tomb-raider { display:flex; justify-content: center; align-items: flex-start; }
+		.tomb-raider-logo { width: 90%; }
+	}
+
+	@media (max-width: 400px){
+		.tomb-raider { position: relative; top: 50px; }
+		.middle { height: 700px; }
+		.button-position { height: 250px; }
 	}
 </style>

@@ -57,20 +57,26 @@
     img{
         width: 180px;
     }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .icon-container{
-        height: 100px;
+        /* height: 100px; */
         height: 90px;
         margin: 50px 200px;
         display: flex;
         justify-content: space-between;
-
     }
     .icons{
         display: flex;
         align-items: center;
+        margin: 0 10px;
     }
     .rating-logo{
-        width: 380px;
+        width: 280px;
     }
     .pc-logo{
         width: 70px;
@@ -98,5 +104,29 @@
     }
     .legal-links p{
         margin: 0;
+    }
+
+    @media (max-width: 1000px){
+        .icon-container { width: 100vw; justify-content: space-evenly; }
+        img { width: 130px; }
+        .pc-logo { width: 50px; }
+        .icons { margin: 0; }
+		.rating-logo { width: 230px; }
+	}
+
+    @media (max-width: 800px){
+        .icon-container { margin: 50px 0; }
+        img { width: 100px; }
+        .rating-logo { width: 200px; }
+    }
+
+    @media (max-width: 600px){
+        img { width: 85px; }
+        .rating-logo { width: 170px; }
+    }
+
+    @media (max-width: 400px){
+        img { width: 50px; }
+        .rating-logo { width: 100px; }
     }
 </style>
