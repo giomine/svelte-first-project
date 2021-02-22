@@ -5,7 +5,9 @@
     export let minUnit = "MINS";
     export let secUnit = "SECS";
     export let largeText = false;
-    var countDownDate = new Date("Apr 17, 2021 00:00:00").getTime();
+    // var countDownDate = new Date("Apr 17, 2021 00:00:00").getTime();  not universal, different timezones will reach 0 at different times
+    var countDownDate = new Date(Date.UTC(2021, 3, 17, 0, 0, 0)); // countdown det to universal time
+    console.log(countDownDate.toUTCString()); // checks time and timezone
 	var x = setInterval(function() {
 		var now = new Date().getTime();
 		var distance = countDownDate - now;
